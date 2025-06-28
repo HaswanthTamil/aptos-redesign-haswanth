@@ -10,7 +10,7 @@ export default function Home() {
 
         <main className="relative z-10">
           <a className="mx-auto p-5 text-white font-semibold text-3xl">
-            Aptos - Reshaping Crypto
+            Aptos - Reshaping Crypto Currency
           </a>
         </main>
       </div>
