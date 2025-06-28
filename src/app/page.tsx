@@ -1,5 +1,6 @@
 // /app/page.tsx
 
+import HeroGlobe from "@/components/backgrounds/HeroGlobe"
 import ParticlesBG from "@/components/backgrounds/ParticlesBG"
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           <a className="mx-auto p-5 text-white font-semibold text-3xl">
             Aptos - Reshaping Crypto Currency
           </a>
+          <HeroGlobe />
         </main>
       </div>
     </>
