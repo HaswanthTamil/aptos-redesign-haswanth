@@ -8,7 +8,11 @@ export default function Home() {
       <div className="min-h-screen bg-black relative z-0 text-white">
         <ParticlesBG />
 
-        <main className="relative z-10"></main>
+        <main className="relative z-10">
+          <a className="mx-auto p-5 text-white font-semibold text-3xl">
+            Aptos - Reshaping Crypto
+          </a>
+        </main>
       </div>
     </>
   )
