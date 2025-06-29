@@ -1,7 +1,10 @@
 // /pages/Hero.tsx
 
-import HeroGlobe from "@/components/backgrounds/HeroGlobe"
+"use client"
+
+// import HeroGlobe from "@/components/backgrounds/HeroGlobe"
 import Header from "@/components/Header"
+import Image from "next/image"
 
 const stats = [
   { title: "All-Time Peak TPS", value: "19.2K+" },
@@ -28,11 +31,12 @@ const Hero = () => {
             </div>
             <div className="flex h-[300px] w-[300px] items-center justify-center">
               <div>
-                <HeroGlobe />
+                {/* <HeroGlobe /> */}
+                <Image src="/globe2.png" alt="" width={300} height={300} />
               </div>
             </div>
           </div>
-          <div className="flex flex-row items-center justify-around border-t-2 py-2 border-[var(--fadeblue)]">
+          <div className="flex flex-row items-center justify-around border-t-2 mt-5 py-2 border-[var(--fadeblue)]">
             {stats.map((stat, index) => (
               <div
                 key={index}

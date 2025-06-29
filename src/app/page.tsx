@@ -1,6 +1,6 @@
 // /app/page.tsx
 
-// HeroGlobe.tsx
+"use client"
 import ParticlesBG from "@/components/backgrounds/ParticlesBG"
 import Hero from "@/pages/Hero"
 
