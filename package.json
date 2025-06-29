@@ -9,15 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/fiber": "^9.1.4",
     "@tsparticles/react": "^3.0.0",
-    "framer-motion": "^12.19.2",
-    "framer-motion-3d": "^12.4.13",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-globe.gl": "^2.33.2",
-    "three": "^0.177.0",
     "tsparticles": "^3.8.1"
   },
   "devDependencies": {
@@ -26,7 +21,6 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/three": "^0.177.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
